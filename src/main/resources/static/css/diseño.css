@@ -3,8 +3,8 @@
     height: 10%;
     position: absolute;
     top: 0;
-    left: 10%;
-    width: 80%;
+    left: 0%;
+    width: 100%;
     
 }
 
@@ -32,9 +32,9 @@
 #contenido{
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 3%;
     height: 90%;
-    width: 80%;
+    width: 95%;
     background-color: white;
     color: black;
     overflow: auto;
@@ -75,13 +75,13 @@
     width: 600px;
     height: 30px;
 }
-.imag imgen{
+.imag imagen{
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
     opacity: 8;
     transition: 5s;
-    
+
 }
 .imag img:hover{
     cursor: crosshair;

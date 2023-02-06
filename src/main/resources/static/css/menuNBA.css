@@ -64,3 +64,19 @@ body{
     background-color: green;
     transition: 0.7s;
 }
+#equipo{
+    text-align: center;
+}
+#noticia{
+    color: blue;
+}
+#resu{
+    text-align: center;
+}
+#video{
+    margin-left: 35%;
+}
+.imagen{
+    margin-left: 30%;
+    margin-right: -35%;
+}
