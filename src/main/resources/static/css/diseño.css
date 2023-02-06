@@ -1,0 +1,106 @@
+.header{
+    background-color: lightblue;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    
+}
+
+.descripcion{
+    font-size: 18px;
+}
+
+#menu{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #9B8030;
+    color: black;
+}
+#menu a:visited{
+    color: navy;
+}
+#menu a:hover{
+    background-color: green;
+    color: white;
+}
+
+#contenido{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 90%;
+    width: 80%;
+    background-color: white;
+    color: black;
+    overflow: auto;
+    
+}
+#piePagina{
+    /*position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;*/
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#encabezadoTabla{
+    font-size: 20px;
+    background-color: blue;
+    color: yellow;
+}
+
+#tablaResumen{
+    font-size: 25px;
+
+}
+
+#tablaResumen tr :nth-child(odd){
+    background-color: coral;
+    color: white;
+}
+#tablaResumen tr :nth-child(even){
+    background-color: white;
+    color: darkmagenta;
+}
+.imag{
+    display: contents;
+    width: 600px;
+    height: 30px;
+}
+.imag imgen{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: 5s;
+    
+}
+.imag img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.deporte{
+    padding: 20px;
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+}
+.etiqueta{
+    font-size: 18px;
+    margin: 0 120px;
+    line-height: 10px;
+    width: max-content;
+}
+
+
+
