@@ -1,0 +1,85 @@
+#encabezado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 99.20%;
+    background-color: #496D8D;
+    color: white;
+    padding-left: 15px;
+}
+#encabezado h1{
+    display: inline
+}
+
+.descripcion{
+    font-size: 18px;
+}
+
+#menu{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+#menu a:visited{
+    color: navy;
+}
+#menu a:hover{
+    background-color: green;
+    color: white;
+}
+
+#barraLateral{
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    height: 81%;
+    width: 20%;
+    background-color: white;
+    color: white;
+}
+#contenido{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: white;
+    color: black;
+    overflow: auto;
+}
+#piePagina{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#encabezadoTabla{
+    font-size: 20px;
+    background-color: blue;
+    color: yellow;
+}
+
+#tablaResumen{
+    font-size: 25px;
+    
+}
+
+#tablaResumen tr :nth-child(odd){
+    background-color: coral;
+    color: white;
+}
+#tablaResumen tr :nth-child(even){
+    background-color: white;
+    color: darkmagenta;
+}
+
